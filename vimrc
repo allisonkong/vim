@@ -93,10 +93,6 @@ set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 
-" Set the filetype based on the file's extension, overriding any
-" 'filetype' that has already been set.
-au BufRead,BufNewFile *.out set filetype=text
-
 " Use F2 and F3 to save and restore sessions.
 " This feature is disabled in favor of manually editing .vim_session.
 "map <F2> :mksession! ~/.vim_session <cr>
