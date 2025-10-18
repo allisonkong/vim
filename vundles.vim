@@ -1,4 +1,5 @@
-" =========================
+"
+"=========================
 " Vim plugin configuration
 " =========================
 "
@@ -18,18 +19,13 @@ Plugin 'VundleVim/Vundle.vim'
 " ===== List of all bundles =====
 
 " Status line
-Plugin 'bling/vim-airline'
-
-" Git
-Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
 
 " C/C++
 Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " JS/TypeScript
 Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
-Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()
 
